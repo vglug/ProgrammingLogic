@@ -1,8 +1,9 @@
 # ProgrammingLogic
 
-Various programming logic in various programming languages
+Various programming logic in various programming languages.
 <hr>
 
-
-This Repo is mainly created for the HACKTOBERFEST2020 
+This Repo is mainly created for the HACKTOBERFEST2020.
 <hr>
+##STEP
+1. 
