@@ -4,5 +4,5 @@ Various programming logic in various programming languages
 <hr>
 
 
-hello
+This Repo is mainly created for the HACKTOBERFEST2020 
 <hr>
