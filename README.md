@@ -14,7 +14,4 @@ This Repository is mainly created for the HACKTOBERFEST2020.
 
 4. Choose one question from each levels (easy,medium,hard) and solve the three questions and upload to correspond folder based on which programming language you use  then give a pull request to the main repository.
 
-<h2>RULES</h2>
-1.
-
-2. 
+<h2>RULES</h2> 
