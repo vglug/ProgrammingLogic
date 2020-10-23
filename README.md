@@ -1,41 +1,18 @@
 # ProgrammingLogic
 
 Various programming logic in various programming languages.
-<hr>
 
-This Repo is mainly created for the HACKTOBERFEST2020.
-<hr>
+This Repository is mainly created for the HACKTOBERFEST2020.
+
 <h2>STEPS</h2>
   
-1. Create [GITHUB](https://github.com) account  
+1. Create [GITHUB](https://github.com) account.  
   
-2. Sign in to [Hacktoberfest](https://hacktoberfest.digitalocean.com)
-  
+2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [GITHUB](https://github.com) credentials.
 
+3. Login to your [GITHUB](https://github.com) and fork this repository to your repository.
 
-Login to hacktoberfest contest using github.com credentials 
+4. Choose one question from each levels (easy,medium,hard) and solve the three questions then give a pull request to the main repository.
 
-Click attend an event
+<h2>RULES</h2>
 
-Search for viluppuram
-
-Open an event
-
-Click Login and register
-
-Create a mlh account
-
-
-Check your mail for confirmation mail
-
-Click confirm account
-
-Fill your details
-
-
-And sign to mlh account
-
-Then click register
-
-
-That's all completed
