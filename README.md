@@ -5,5 +5,5 @@ Various programming logic in various programming languages.
 
 This Repo is mainly created for the HACKTOBERFEST2020.
 <hr>
-##STEP
+<h2>STEP
 1. 
