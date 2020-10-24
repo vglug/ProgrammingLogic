@@ -14,7 +14,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
     3. Should have Well documentations
 
-    4. Before raising pull request check alreay exisit or not in Villl/PL repo.
+    4. Before raising pull request check alreay exisit or not in https://github.com/ViluppuramGLUG/ProgrammingLogic repo.
     
     
 ## Steps to Start 
@@ -23,7 +23,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
     2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [Github](https://github.com).
 
-    3. Fork this(vill.../PL) repository to your repository (username/PL).
+    3. Fork this https://github.com/ViluppuramGLUG/ProgrammingLogic repository to your repository (username/ProgrammingLogic).
     
     
 ## Steps to Contribute
@@ -57,6 +57,22 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
     Program with documentations
     """ Palindrom or not given string """
+    
+    !!! python
+    # function which return reverse of a string
+    def isPalindrome(s):
+        return s == s[::-1]
+ 
+ 
+    # Getting string from user
+    s = input("Enter word: ")
+    ans = isPalindrome(s)
+
+    # Checking the given string same as reversed string then print "Yes". otherwise print "No"
+    if ans:
+        print("Yes")
+    else:
+        print("No")!!!
 
     
 
