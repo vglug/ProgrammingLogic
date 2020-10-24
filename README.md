@@ -53,7 +53,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
     
     
 ## Example like
- filename : ProgLogic/python/palindrome_or_not.py [link]()
+ filename : ProgLogic/python/palindrome_or_not.py [link](https://github.com/vigneshkannan255/ProgrammingLogic/blob/main/python/palindrome_or_not.py)
 
 ## Program with documentations
     """ Palindrom or not given string """
