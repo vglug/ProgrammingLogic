@@ -34,7 +34,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
  3. program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
 
- 4. Program should be well document. [link](https://en.wikipedia.org/wiki/Software_documentation)
+ 4. Program should be well document. [link](## Program with documentations)
 
  5. Commit and push it to your repo.
     
