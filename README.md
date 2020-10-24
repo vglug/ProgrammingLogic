@@ -6,59 +6,58 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
 ## Contribution Guidelines
 
-    Please follow the contribution guidelines. We consider following items in your program.
+ Please follow the contribution guidelines. We consider following items in your program.
 
-    1. Write your own program by own way.
+ 1. Write your own program by own way.
 
-    2. We expect new and intresting logic and program.
+ 2. We expect new and intresting logic and program.
 
-    3. Should have Well documentations
+ 3. Should have Well documentations
 
-    4. Before raising pull request check alreay exisit or not in https://github.com/ViluppuramGLUG/ProgrammingLogic repo.
+ 4. Before raising pull request check alreay exisit or not in https://github.com/ViluppuramGLUG/ProgrammingLogic repo.
     
     
 ## Steps to Start 
 
-    1. Login with [Github](https://github.com). (If you don't have account then [register](https://github.com) and [login](https://github.com))
+ 1. Login with [Github](https://github.com). (If you don't have account then [register](https://github.com) and [login](https://github.com))
 
-    2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [Github](https://github.com).
+ 2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [Github](https://github.com).
 
-    3. Fork this https://github.com/ViluppuramGLUG/ProgrammingLogic repository to your repository (username/ProgrammingLogic).
+ 3. Fork this https://github.com/ViluppuramGLUG/ProgrammingLogic repository to your repository (username/ProgrammingLogic).
     
     
 ## Steps to Contribute
 
-    1. Choose your prefered langues in this repo.
+ 1. Choose your prefered langues in this repo.
 
-    2. Write any programming logic/interview questions program in any language or your prefered language. That should be useful and intresting. 
+ 2. Write any programming logic/interview questions program in any language or your prefered language. That should be useful and intresting. 
 
-    3. program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
+ 3. program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
 
-    4. Program should be well document. (what is documentation link)
+ 4. Program should be well document. (what is documentation link)
 
-    4. Commit and push it your repo.
+ 5. Commit and push it to your repo.
     
 ## Steps to pull request
 
-    1. Click pull request in your repo after commit and push.
+ 1. Click pull request in your repo after commit and push.
 
-    2. Ensure base repository:vil/PL <- head repository: username/PL. then click create pull request button.
+ 2. Ensure base repository:(ViluppuramGLUG/ProgrammingLogic) <- head repository: username/ProgrammingLogic. then click create pull request button.
 
-    3. After that, Give valid title and message
+ 3. After that, Give valid title and message
 
-    4. Click Create Pull Request button.
+ 4. Click Create Pull Request button.
 
 
-    Ref more explanation : https://opensource.com/article/19/7/create-pull-request-github
+ Ref more explanation : [link](https://opensource.com/article/19/7/create-pull-request-github)
     
     
-    Example like
-    filename : ProgLogic/python/palindrome_or_not.py
+## Example like
+ filename : ProgLogic/python/palindrome_or_not.py [link]()
 
-    Program with documentations
+## Program with documentations
     """ Palindrom or not given string """
     
-    !!! python
     # function which return reverse of a string
     def isPalindrome(s):
         return s == s[::-1]
@@ -72,7 +71,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
     if ans:
         print("Yes")
     else:
-        print("No")!!!
+        print("No")
 
     
 
