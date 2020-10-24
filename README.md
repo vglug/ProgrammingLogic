@@ -19,11 +19,11 @@ This repo helps to everyone understand the programming logic, syntax and how wor
     
 ## Steps to Start 
 
- 1. Login with [Github](https://github.com). (If you don't have account then [register](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) and [login](https://github.com))
+ 1. Login with [Github](https://github.com/login). (If you don't have account then [register](https://github.com/join) and [login](https://github.com/login))
 
  2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [Github](https://github.com).
 
- 3. Fork this https://github.com/ViluppuramGLUG/ProgrammingLogic repository to your repository (username/ProgrammingLogic).
+ 3. Fork this [https://github.com/ViluppuramGLUG/ProgrammingLogic](https://github.com/ViluppuramGLUG/ProgrammingLogic) repository to your repository (username/ProgrammingLogic).
     
     
 ## Steps to Contribute
@@ -34,7 +34,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
  3. program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
 
- 4. Program should be well document. [link](https://github.com/vigneshkannan255/ProgrammingLogic/blob/main/README.md#program-with-documentations)
+ 4. Program should be well document. [ref link](#program-with-documentations)
 
  5. Commit and push it to your repo.
     
@@ -42,20 +42,22 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
  1. Click pull request in your repo after commit and push.
 
- 2. Ensure base repository:(ViluppuramGLUG/ProgrammingLogic) <- head repository: username/ProgrammingLogic. then click create pull request button.
+ 2. Ensure base repository:(ViluppuramGLUG/ProgrammingLogic) <- head repository: (username/ProgrammingLogic). then click create pull request button.
 
- 3. After that, Give valid title and message
+ 3. After that, Give valid title and message.
 
  4. Click Create Pull Request button.
 
 
- Ref more explanation : [link](https://opensource.com/article/19/7/create-pull-request-github)
+ Ref more explanation : [link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
     
     
-## Example like
- filename : ProgLogic/python/palindrome_or_not.py [link](https://github.com/vigneshkannan255/ProgrammingLogic/blob/main/python/palindrome_or_not.py)
+## Example
+ filename : ProgrammingLogic/python/palindrome_or_not.py [link](/python/palindrome_or_not.py)
 
-## Program with documentations
+### Program with documentations
+
+``` python
     """ Palindrom or not given string """
     
     # function which return reverse of a string
@@ -72,6 +74,4 @@ This repo helps to everyone understand the programming logic, syntax and how wor
         print("Yes")
     else:
         print("No")
-
-    
-
+```
