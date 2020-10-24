@@ -32,9 +32,9 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 
  2. Write any programming logic/interview questions program in any language or your prefered language. That should be useful and intresting. 
 
- 3. program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
+ 3. Program filename should be valid, human readable and snake case format like (fibonacci_number.py) not like camel case (FibonacciNumber.py) except Java and Kotlin.
 
- 4. Program should be well document. [ref link](#program-with-documentations)
+ 4. Program should be well document([example](#program-with-documentations))
 
  5. Commit and push it to your repo.
     
@@ -58,7 +58,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
 ### Program with documentations
 
 ``` python
-    """ Palindrom or not given string """
+    """Palindrom or not given string"""
     
     # function which return reverse of a string
     def isPalindrome(s):
