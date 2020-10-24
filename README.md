@@ -15,6 +15,8 @@ This repo helps to everyone understand the programming logic, syntax and how wor
  3. Should have Well documentations
 
  4. Before raising pull request check alreay exisit or not in https://github.com/ViluppuramGLUG/ProgrammingLogic repo.
+ 
+ 5. Each pull request have at least two or more programs are welcome.
     
     
 ## Steps to Start 
