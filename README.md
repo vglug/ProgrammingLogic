@@ -19,7 +19,7 @@ This repo helps to everyone understand the programming logic, syntax and how wor
     
 ## Steps to Start 
 
- 1. Login with [Github](https://github.com). (If you don't have account then [register](https://github.com) and [login](https://github.com))
+ 1. Login with [Github](https://github.com). (If you don't have account then [register](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) and [login](https://github.com))
 
  2. Login to [Hacktoberfest](https://hacktoberfest.digitalocean.com) using [Github](https://github.com).
 
