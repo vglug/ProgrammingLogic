@@ -2,7 +2,7 @@
 
 Various programming logic in various programming languages.
 
-This repo helps to everyone understand the programming logic, syntax and how works in diffrent languages.
+This repo helps to everyone understand the programming logic, syntax and how works in different languages.
 
 ## Contribution Guidelines
 
