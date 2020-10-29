@@ -1,4 +1,4 @@
-#import twitter
+
 from __future__ import unicode_literals
 import back4app
 import toot
@@ -7,19 +7,18 @@ import os
 from secret_keys import *
 from mastodon import Mastodon
 from sys import argv
-
-
+#function that connects to mastodon account
 def connect():
     mastodon = Mastodon(access_token = 'GZ4dEVxYNAO3n__fEskXMPf0VMg4aQm0yURL-eJAU9Q',api_base_url = 'https://mastodon.social')
     return mastodon
 
-
+#main function
 if __name__ == "__main__":
-    api = connect()
+    api = connect()#function call to connect 
     mine = back4app.Back4App()
 
     status = mine.get_sentance()
-    print(status)
+    #print(status)
 
     if status is not None and len(status) < 210:
         if not DEBUG:
