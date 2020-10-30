@@ -1,7 +1,7 @@
 # check the input whether is it a integer or not
 try:
    # take input for the calculation value
-   num = int(input("Enete Number to multiplay : "))
+   num = int(input("Eneter Number to multiplay : "))
    
    # check the input for range whether is it a integer or not
    try:
