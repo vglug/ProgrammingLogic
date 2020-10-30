@@ -1,0 +1,9 @@
+.container {
+    display: block;
+    justify-content: center;
+
+}
+
+.result {
+    font-size: 55px;
+}
