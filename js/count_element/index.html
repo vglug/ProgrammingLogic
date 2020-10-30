@@ -1,0 +1,35 @@
+
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Checking Count</title>
+      <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+  <div class="container">
+  <h4> if array as [5, 5, 5, 2, 2, 2, 2, 2, 9, 4], then the count will be </h4>
+  <button onclick="myFunction()">Try it</button>
+    <br/>
+    <div id="result"></div>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var a = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+    result = { };
+    for(var i = 0; i < a.length; ++i) {
+      //checking result object have element
+        if(!result[a[i]])
+          // if not add key element in object
+            result[a[i]] = 0;
+          //count the vaule
+        ++result[a[i]];
+      console.log(result, "stepwise")
+    }
+    document.getElementById("result").innerHTML = JSON.stringify(result);
+  }
+  </script>
+  </body>
+  </html>
+  
