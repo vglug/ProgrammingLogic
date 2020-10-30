@@ -1,7 +1,7 @@
 
 // C program for implementation of Bubble sort 
 #include <stdio.h> 
-  
+//using below function to swap two values  
 void swap(int *xp, int *yp) 
 { 
     int temp = *xp; 
