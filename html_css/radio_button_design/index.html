@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        designed radio button
+    </title>
+    <style>
+        .location {
+        width: 50%;
+        }
+
+        .location1 {
+        display: none;
+        }
+
+        .location .location2 {
+        border: 2px solid #fab700;
+        padding: 7px 10px 8px 12px;
+        border-radius: 36px;
+        width: 25%;
+        cursor: pointer;
+        float: left;
+        color: #707070;
+        text-align: center;
+        font-weight: 500;
+        margin: 5px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        }
+
+        .location1:checked + .location2 {
+        background-color: #fab700;
+        color: #fff;
+        font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="margin-left:15px"> Designing the input Radio Button </h2>
+<div id="location" name="location" class="location city1">
+    <!-- type configure and give label for that -->
+    <input type="radio" name="location" id="guindy" class="location1">
+    <label for="guindy" class="location2">Student</label>
+    <input type="radio" name="location" id="ashok_nagar" class="location1">
+    <label for="ashok_nagar" class="location2">Working</label>
+</div>
+
+</body>
+</html>
