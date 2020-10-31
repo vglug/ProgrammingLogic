@@ -1,0 +1,23 @@
+#To find the word frequency 
+str1 = input("enter the string:")
+# Words Frequency in String Shorthands 
+# Using dictionary comprehension + count() + split() 
+wf = {key: str.count(key) for key in test_str.split()}
+print("the original string is" + str(str1))
+print("the word frequency" + str(wf))
+
+#To find list of uncommon words
+# Function to return all uncommon words 
+def UncommonWords(A, B): 
+    # count will contain all the word counts 
+    count = {} 
+    # insert words of string A to hash 
+    for word in A.split(): 
+        count[word] = count.get(word, 0) + 1
+    for word in B.split(): 
+        count[word] = count.get(word, 0) + 1
+    # return required list of words 
+    return [word for word in count if count[word] == 1] 
+A = input("enter the string 1")
+B = input("enter the string 2") 
+print(UncommonWords(A, B))
