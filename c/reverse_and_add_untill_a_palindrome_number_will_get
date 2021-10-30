@@ -1,0 +1,31 @@
+#include<stdio.h>
+int isrev(int n)
+{
+	int temp,rev=0,rem;
+	temp=n;
+	while(temp)
+	{
+		rem=temp%10;
+		rev=rev*10+rem;
+		temp=temp/10;
+	}
+	return rev;
+}
+void main()
+{
+	int n,i,sum1,count=0;
+	printf("enter the number");
+	scanf("%d",&n);
+	for(;;)
+	{
+		sum1=isrev(n)+n;
+		if(sum1==isrev(sum1))
+		{
+			printf(" %d is the palindrome number ",sum1);
+			break;
+		}
+		n=sum1;
+		count++;
+	}
+	printf("\n %d times iterated till palindrome obtain",count);
+}
