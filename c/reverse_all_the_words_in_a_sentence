@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	int i,n,j,k;
+	char s[30];
+	gets(s);
+	n=strlen(s);
+	int a[20];
+	a[0]=-1;
+	j=1;
+	for(i=0;i<n;i++)
+	{
+		if(s[i]==' ')
+		{
+			a[j]=i;
+			j++;
+		}
+	}
+	a[j]=n;
+	j++;
+	for(k=0;k<j;k++)
+	{
+		for(i=a[k+1]-1;i>a[k];i--)
+		{
+			printf("%c",s[i]);
+		}
+		printf(" ");
+	}
+	
+}
