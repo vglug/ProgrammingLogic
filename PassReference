@@ -1,0 +1,9 @@
+def set_list(list):
+    list = ["a","b","c"]
+    return list
+def add (list):
+    list.append("d")
+    return list
+my_list = ["e"]
+print(set_list(my_list))
+print(add(my_list))
