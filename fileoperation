@@ -1,0 +1,18 @@
+file_name = "example.txt"
+with open(file_name, "w") as file:
+    file.write("Hello, this is a sample file.\n")
+
+
+with open(file_name, "r") as file:
+    content = file.read()
+    print("Content of the file:")
+    print(content)
+
+
+with open(file_name, "a") as file:
+    file.write("This is some additional text.\n")
+
+with open(file_name, "r") as file:
+    content = file.read()
+    print("\nUpdated content of the file:")
+    print(content)
