@@ -1,4 +1,4 @@
-""" Insetion sort in a list"""
+""" Insetion sort in a list """
 def insertionSort(arr):
     n = len(arr)
     if n <= 1:
