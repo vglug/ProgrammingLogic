@@ -1,0 +1,30 @@
+def count_same_first_last_char_substrings(s):
+    n = len(s)
+    count = 0
+
+    # Create a table to store the counts of substrings
+    dp = [[0] * n for _ in range(n)]
+
+    # All substrings of length 1 have the same first and last character
+    for i in range(n):
+        dp[i][i] = 1
+        count += 1
+
+    # Check substrings of length 2 and more
+    for length in range(2, n + 1):
+        for start in range(n - length + 1):
+            end = start + length - 1
+
+            # Check if the first and last characters are the same
+            if s[start] == s[end]:
+                # If it's a two-character substring, or if the inner substring is a palindrome
+                if length == 2 or dp[start + 1][end - 1] == length - 2:
+                    dp[start][end] = length
+                    count += 1
+
+    return count
+
+# Example usage:
+input_string = "abba"
+result = count_same_first_last_char_substrings(input_string)
+print(f"The number of substrings with the same first and last characters is: {result}")
