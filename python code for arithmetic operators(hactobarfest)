@@ -1,0 +1,25 @@
+# Arithmetic operators example
+
+# Addition
+result_addition = 1000+30005
+print("Addition:", result_addition)  
+
+# Subtraction
+result_subtraction = 2008 - 300
+print("Subtraction:", result_subtraction)  
+
+# Multiplication
+result_multiplication = 800* 44
+print("Multiplication:", result_multiplication)  
+
+# Division
+result_division = 50 / 5
+print("Division:", result_division)  
+
+# Modulus (Remainder after division)
+result_modulus = 21 % 4
+print("Modulus:", result_modulus)  
+
+# Exponentiation
+result_exponentiation = 2 ** 3
+print("Exponentiation:", result_exponentiation)  
