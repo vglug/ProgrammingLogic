@@ -1,0 +1,13 @@
+def sum_of_digits(n):
+    # Base case: if the number is a single digit, return the number itself
+    if n < 10:
+        return n
+    else:
+        # Recursive case: sum the last digit and the sum of digits of the remaining part
+        return n % 10 + sum_of_digits(n // 10)
+
+# Example usage:
+number = 12345
+result = sum_of_digits(number)
+
+print(f"The sum of digits of {number} is {result}.")
