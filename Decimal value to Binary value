@@ -1,0 +1,9 @@
+def decimal_to_binary(n):
+    if n > 1:
+        decimal_to_binary(n // 2)  # Recursive call
+    print(n % 2, end="")
+
+# Example usage:
+decimal_number = 10  # Replace with the decimal number you want to convert
+print(f"The binary equivalent of {decimal_number} is: ", end="")
+decimal_to_binary(decimal_number)
